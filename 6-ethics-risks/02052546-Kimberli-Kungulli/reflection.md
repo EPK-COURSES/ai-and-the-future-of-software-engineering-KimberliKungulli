@@ -55,6 +55,16 @@ I now think the risk is not just about individual careless developers. The risk 
 I also changed my view on copyright. I previously assumed that code produced by an AI assistant was legally clean to use. The research showed that this is an open legal question — one that courts and legislators are still working through. Using AI-generated code in a commercial context without understanding the licensing implications is a risk I would not have recognized before.
 
 ---
+## Final Thought: What I Will Do Differently
+
+Coming back to update this reflection after finishing the full research, one thing stands out above everything else: the gap between how fast AI tools are being adopted and how slowly the profession is adapting its safety practices.
+
+The statistic that hit me hardest was that 1 in 5 organizations has already suffered a breach linked to AI-generated code. That is not a future warning — it is happening now. And yet 58% of developers still trust AI output without proper testing (SQ Magazine, 2026).
+
+The one concrete thing I will do differently because of this research is treat every piece of AI-generated code the way I would treat code written by someone I do not know — read it carefully, test it independently, and never assume it is correct just because it looks right. Trust has to be earned through verification, not assumed because the tool is sophisticated.
+
+I also now understand that the engineers who will be most valuable going forward are not those who generate the most code with AI, but those who can catch what AI gets wrong. That is the skill I want to build.
+
 
 ## How I will personally adapt
 
