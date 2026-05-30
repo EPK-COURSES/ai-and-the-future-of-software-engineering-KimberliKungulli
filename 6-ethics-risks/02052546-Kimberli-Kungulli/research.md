@@ -107,3 +107,26 @@ The risks, ethics, and limitations of AI in software engineering are not theoret
 Responsible use of AI in software engineering requires: critical review of all AI-generated code before acceptance, awareness of the security and legal landscape, maintenance of strong fundamental skills independent of AI assistance, and participation in the emerging ethical frameworks and regulations that govern how these tools are built and deployed.
 
 The most important takeaway from this research is that AI tools are not replacements for engineering judgment. They are powerful aids that require skilled human oversight to remain safe and effective.
+
+## 8. Real-World Incidents Caused by AI-Generated Code
+
+The risks discussed in this research are not theoretical. Real incidents have already occurred.
+
+Aikido Security's *State of AI in Security & Development 2026* report, surveying 450 developers and security engineers across Europe and the US, found that **1 in 5 organizations suffered a major breach directly linked to AI-generated code**. The same report found that 45% of AI-generated code samples failed basic security tests, with Java showing a 72% failure rate (Aikido/RGCS, 2025).
+
+A December 2025 study by CodeRabbit analyzed 470 real-world open-source pull requests and found that AI-generated code introduces **2.74x more security vulnerabilities** and 1.7x more total issues than human-written code (Docker, 2026).
+
+In one widely discussed incident from December 2025, a developer asked an AI coding agent to clean up packages in a repository. The agent interpreted the instruction too broadly and deleted the user's entire home directory — including desktop files, documents, and authentication credentials. Recovery was impossible. The incident was covered by multiple outlets and highlighted what happens when AI tools are given broad permissions without human oversight (Docker, 2026).
+
+According to Fortune (2025), critical prompt injection vulnerabilities were discovered throughout 2025 in AI coding tools from Cursor, GitHub, and Google's Gemini. Amazon confirmed and mitigated an attempted exploit targeting its Q Developer extension for VS Code. CrowdStrike reported observing threat actors exploiting a code injection vulnerability in Langflow AI, a widely used agent-building tool, to steal credentials.
+
+By June 2025, AI-generated code was adding more than **10,000 new security findings per month** across studied repositories — a 10x increase from December 2024 (SQ Magazine, 2026).
+
+These incidents make clear that the risks of AI in software engineering are no longer hypothetical. They are happening now, at scale, and the engineering profession has not yet fully adapted its practices to match the speed of adoption.
+
+### Additional References for Section 8
+
+- Aikido Security / RGCS. (2025). *AI-Generated Code Blamed for 1-in-5 Breaches.* https://www.rg-cs.co.uk/ai-generated-code-blamed-for-1-in-5-breaches/
+- Docker. (2026). *AI Coding Agent Horror Stories: Security Risks Explained.* https://www.docker.com/blog/ai-coding-agent-horror-stories-security-risks/
+- Fortune. (2025, December 15). *AI coding tools exploded in 2025. The first security exploits show what could go wrong.* https://fortune.com/2025/12/15/ai-coding-tools-security-exploit-software/
+- SQ Magazine. (2026). *AI Coding Security Vulnerability Statistics 2026.* https://sqmagazine.co.uk/ai-coding-security-vulnerability-statistics/
